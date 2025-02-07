@@ -1,2 +1,2 @@
 #!/bin/sh
-kitty -e micro ~/.config/hypr/cheatsheet.md
+kitty -e micro ~/.config/niri/cheatsheet.md

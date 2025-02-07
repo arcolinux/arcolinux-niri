@@ -1,12 +1,12 @@
 #!/bin/bash
 
-CONFIG="$HOME/.config/hypr/waybar/config.ini"
-STYLE="$HOME/.config/hypr/waybar/style.css"
+CONFIG="$HOME/.config/niri/waybar/config.ini"
+STYLE="$HOME/.config/niri/waybar/style.css"
 
 # Create new css files and make your own style
 # Here is a mono look - then change the colors
 
-#STYLE="$HOME/.config/hypr/waybar/style-mono.css"
+#STYLE="$HOME/.config/niri/waybar/style-mono.css"
 
 # Terminate already running bar instances
 killall -q waybar

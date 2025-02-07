@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DIR=$HOME/.config/hypr/bg
+DIR=$HOME/.config/niri/bg
 random_wallpaper=$(find $DIR -type f | sort -R | head -1)
 
 # Terminate already running bar instances
