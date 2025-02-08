@@ -89,7 +89,7 @@
     "custom/menu": {
          "format": "Arco",
          "tooltip": false,
-         "on-click": "$HOME/.config/niri/scripts/menut",
+         "on-click": "$HOME/.config/niri/scripts/menu",
         //  "on-click": "sleep 0.1; $HOME/.config/niri/scripts/rofi_launcher",
         //  "on-click-right": "sleep 0.1; $HOME/.config/niri/scripts/rofi_runner",
     },

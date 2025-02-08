@@ -18,16 +18,14 @@ done
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 
 # Apply themes
-${SCRIPTSDIR}/gtkthemes &
+# ${SCRIPTSDIR}/gtkthemes &
+${SCRIPTSDIR}/gtkthemes-manual &
 
 # Lauch notification daemon (mako)
 ${SCRIPTSDIR}/notifications &
 
 # Lauch statusbar (waybar)
 ${SCRIPTSDIR}/statusbar &
-
-# Xauthority
-${SCRIPTSDIR}/xauthority &
 
 dex $HOME/.config/autostart/arcolinux-welcome-app.desktop &
 

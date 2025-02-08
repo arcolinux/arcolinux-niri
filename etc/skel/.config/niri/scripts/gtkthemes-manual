@@ -17,3 +17,6 @@ apply_themes() {
 }
 
 apply_themes
+
+gnome_schema="org.gnome.desktop.interface"
+gsettings set  "$gnome_schema" color-scheme "prefer-dark"

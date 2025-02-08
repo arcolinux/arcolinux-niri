@@ -1,5 +1,4 @@
 #!/bin/sh
-# "Change keyboard layout in" "~/.config/niri/hyprland.conf" " " \
 
 yad --width=530 --height=550 \
 --center \

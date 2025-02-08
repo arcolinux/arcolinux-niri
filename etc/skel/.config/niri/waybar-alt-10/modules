@@ -60,26 +60,6 @@
       "default": ""
     },
   },
-  "hyprland/workspaces": {
-    "format": "{icon}",
-    "on-click": "activate",
-    "all-outputs": true,
-    "format-icons": {
-      "1": "1",
-      "2": "2",
-      "3": "3",
-      "4": "4",
-      "5": "5",
-      "6": "6",
-      "7": "7",
-      "8": "8",
-      "9": "9",
-      "10": "10",
-      "urgent": "",
-      "default": ""
-    },
-    "sort-by-number": true
-  },
   "battery": {
     "interval": 60,
     "align": 0,
@@ -138,7 +118,7 @@
   "custom/menu": {
     "format": "  ",
     "tooltip": false,
-    "on-click": "$HOME/.config/niri/scripts/fullmenut",
+    "on-click": "$HOME/.config/niri/scripts/fullmenu",
   },
   "custom/power": {
     "format": "  ",
