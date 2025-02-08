@@ -335,6 +335,7 @@ binds {
 
     Alt+Shift+N { spawn "~/.config/niri/scripts/varietyn";}
     Alt+Shift+P { spawn "~/.config/niri/scripts/varietyp";}
+    Alt+Shift+U { spawn "~/.config/niri/scripts/varietyu";}
 
     Alt+Left { spawn "variety" "-p";}
     Alt+Right { spawn "variety" "-n";}

@@ -1,4 +1,5 @@
 #!/bin/bash
 
+variety -p &&
 WALLPAPER=$(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)
-variety -p && wal -i $WALLPAPER && ~/.config/niri/scripts/statusbar &
+wal -i $WALLPAPER && ~/.config/niri/scripts/statusbar &
