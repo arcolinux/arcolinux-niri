@@ -4,6 +4,8 @@ Operation = Upgrade
 Type = Package
 Target = niri
 Target = niri-git
+Target = arcolinux-niri-git
+Target = arcolinux-niri-nemesis-git
 
 [Action]
 Description = Modifying Niri Desktop file...
