@@ -167,10 +167,10 @@ layout {
         // - CSS-like notation: "rgb(255, 127, 0)", rgba(), hsl() and a few others.
 
         // Color of the ring on the active monitor.
-        active-color "#7fc8ff"
+        //active-color "#7fc8ff"
 
         // Color of the ring on inactive monitors.
-        inactive-color "#505050"
+        //inactive-color "#505050"
 
         // You can also use gradients. They take precedence over solid colors.
         // Gradients are rendered the same as CSS linear-gradient(angle, from, to).
@@ -179,13 +179,13 @@ layout {
         // You can use any CSS linear-gradient tool on the web to set these up.
         // Changing the color space is also supported, check the wiki for more info.
         //
-        // active-gradient from="#80c8ff" to="#bbddff" angle=45
+        active-gradient from="#80c8ff" to="#bd9df2" angle=45
 
         // You can also color the gradient relative to the entire view
         // of the workspace, rather than relative to just the window itself.
         // To do that, set relative-to="workspace-view".
         //
-        // inactive-gradient from="#505050" to="#808080" angle=45 relative-to="workspace-view"
+        inactive-gradient from="#505050" to="#909090" angle=45 relative-to="workspace-view"
     }
 
     // You can also add a border. It's similar to the focus ring, but always visible.
@@ -313,6 +313,8 @@ binds {
     Mod+Shift+D { spawn "~/.config/niri/scripts/menut"; }
     Ctrl+Alt+L { spawn "archlinux-logout"; }
     Mod+Shift+Return { spawn "thunar"; }
+    Ctrl+Alt+F { spawn "firefox"; }
+    Ctrl+Alt+U { spawn "pavucontrol"; }
     Mod+X { spawn "archlinux-logout";}
     Alt+N { spawn "variety" "-n";}
     Alt+P { spawn "variety" "-p";}
@@ -493,8 +495,8 @@ binds {
     Mod+R { switch-preset-column-width; }
     Mod+Shift+R { switch-preset-window-height; }
     Mod+Ctrl+R { reset-window-height; }
-    Mod+F { fullscreen-window; }
-    Mod+Shift+F { maximize-column; }
+    Mod+F { maximize-column; }
+    Mod+Shift+F { fullscreen-window; }
     Mod+C { center-column; }
 
     // Finer width adjustments.
