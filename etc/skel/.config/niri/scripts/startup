@@ -14,6 +14,9 @@ for _prs in "${_ps[@]}"; do
 	fi
 done
 
+# default wallpaper
+${SCRIPTSDIR}/setdefaultwallpaper &
+
 # polkit agent
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 
@@ -27,7 +30,7 @@ ${SCRIPTSDIR}/notifications &
 # Lauch statusbar (waybar)
 ${SCRIPTSDIR}/statusbar &
 
-dex $HOME/.config/autostart/arcolinux-welcome-app.desktop &
+#dex $HOME/.config/autostart/arcolinux-welcome-app.desktop &
 
 #insync start &
 #dropbox &
