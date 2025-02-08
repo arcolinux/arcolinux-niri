@@ -359,6 +359,7 @@ binds {
     Ctrl+Alt+Return { spawn "alacritty"; }
     Ctrl+Alt+T { spawn "alacritty"; }
     Ctrl+Alt+U { spawn "pavucontrol";}
+    Ctrl+Alt+V { spawn "vivaldi-stable";}
     Ctrl+Alt+W { spawn "arcolinux-welcome-app";}
 
      
