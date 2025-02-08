@@ -327,10 +327,15 @@ binds {
     Ctrl+Alt+F { spawn "firefox"; }
     Ctrl+Alt+U { spawn "pavucontrol"; }
     Mod+X { spawn "archlinux-logout";}
+
     Alt+N { spawn "variety" "-n";}
     Alt+P { spawn "variety" "-p";}
     Alt+F { spawn "variety" "-f";}
     Alt+T { spawn "variety" "-t";}
+
+    Alt+Shift+N { spawn "~/.config/niri/scripts/varietyn";}
+    Alt+Shift+P { spawn "~/.config/niri/scripts/varietyp";}
+
     Alt+Left { spawn "variety" "-p";}
     Alt+Right { spawn "variety" "-n";}
     Alt+Up { spawn "variety" "--toggle-pause";}

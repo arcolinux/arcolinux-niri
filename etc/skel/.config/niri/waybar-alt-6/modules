@@ -64,7 +64,7 @@
     "custom/menu": {
          "format": "  ",
          "tooltip": false,
-         "on-click": "bash $HOME/.config/niri/scripts/menu",
+         "on-click": "bash $HOME/.config/niri/scripts/fullmenut",
     },
 
     "custom/power": {
