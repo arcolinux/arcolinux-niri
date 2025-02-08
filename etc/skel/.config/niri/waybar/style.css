@@ -1,7 +1,7 @@
 * {
   /*font-family: "JetBrainsMono NFM:style=Bold", "Noto Sans", "Roboto Condensed", sans-serif;*/
   font-family: "SauceCodePro nerd", "Noto Sans", "Roboto Condensed", sans-serif;
-  font-size: 15px;
+  font-size: 13px;
   /* color: #3A3B3C; */
 }
 
@@ -77,15 +77,15 @@ window#waybar.hidden {
 }
 
 #clock {
-  background-color: #a6e3a1;
+  background-color: #6EA2F0;
 }
 
 #cpu {
-  background-color: #89dceb;
+  background-color: #4D9EF0;
 }
 
 #memory {
-  background-color: #eba0ac;
+  background-color: #2656F0;
 }
 
 #disk {
@@ -93,7 +93,7 @@ window#waybar.hidden {
 }
 
 #tray {
-  background-color: #b4befe;
+  background-color: #496BF0;
 }
 
 #idle_inhibitor {
@@ -130,11 +130,11 @@ window#waybar.hidden {
 }
 
 #custom-menu {
-  background-color: #f5c2e7;
+  background-color: #2795F0;
 }
 
 #custom-power {
-  background-color: #f38ba8;
+  background-color: #5B4EF2;
   margin-right: 4px;
   font-size: 24px;
 }
@@ -156,7 +156,7 @@ window#waybar.hidden {
   margin: 4px 0px;
   padding: 0px 4px;
   color: #3A3B3C;
-  background-color: #ebcb8b;
+  background-color: #65B6F7;
 }
 
 #custom-weather {
@@ -164,7 +164,7 @@ window#waybar.hidden {
 }
 
 #custom-cycle_wall {
-  background-color: #89dceb;
+  background-color: #6EB1F0;
 }
 
 #custom-vpn_check {
@@ -181,7 +181,7 @@ window#waybar.hidden {
 }
 
 #pulseaudio {
-  background-color: #fab387;
+  background-color: #98C0F8;
 }
 
 #pulseaudio.bluetooth {
