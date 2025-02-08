@@ -1,0 +1,11 @@
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Type = Package
+Target = niri
+Target = niri-git
+
+[Action]
+Description = Modifying Niri Desktop file...
+When = PostTransaction
+Exec = /usr/bin/sed -i -e 's/Exec=.*/Exec=run-niri/g' /usr/share/wayland-sessions/niri.desktop
