@@ -315,6 +315,16 @@ binds {
     Mod+Shift+Return { spawn "thunar"; }
     Mod+X { spawn "archlinux-logout";}
     Alt+N { spawn "variety" "-n";}
+    Alt+P { spawn "variety" "-p";}
+    Alt+F { spawn "variety" "-f";}
+    Alt+T { spawn "variety" "-t";}
+    Alt+Left { spawn "variety" "-p";}
+    Alt+Right { spawn "variety" "-n";}
+    Alt+Up { spawn "variety" "--toggle-pause";}
+    Alt+Down { spawn "variety" "--resume";}
+
+    Ctrl+Shift+Escape { spawn "xfce4-taskmanager";}
+    Ctrl+Alt+End { spawn "dex" "--term" "alacritty" "/usr/share/applications/btop.desktop";}
 
     // You can also use a shell. Do this if you need pipes, multiple commands, etc.
     // Note: the entire command goes as a single argument in the end.
