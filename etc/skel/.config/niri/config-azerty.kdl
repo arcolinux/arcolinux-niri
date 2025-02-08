@@ -314,7 +314,7 @@ binds {
     Ctrl+Alt+L { spawn "archlinux-logout"; }
     Mod+Shift+Return { spawn "thunar"; }
     Mod+X { spawn "archlinux-logout";}
-    Alt+N { spawn "variety -n";}
+    Alt+N { spawn "variety" "-n";}
 
     // You can also use a shell. Do this if you need pipes, multiple commands, etc.
     // Note: the entire command goes as a single argument in the end.
