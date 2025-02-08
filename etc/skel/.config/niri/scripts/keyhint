@@ -1,2 +1,2 @@
 #!/bin/sh
-kitty -e micro ~/.config/niri/cheatsheet.md
+alacritty -e micro ~/.config/niri/cheatsheet.md
