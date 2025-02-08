@@ -74,7 +74,7 @@ chmod +x release.sh
 
 + By default I have not set a wallpaper. Press SUPER W and set a wallpaper. This is also to initiate pywal for waybar, kitty (tty) and rofi themes. If you use the copy.sh script, you wont need to do this.
 
-+ Nvidia Owners. Make sure to edit your `~/.config/hypr/UserConfigs/ENVariables.conf` (recommended). Below env's will be activated if automatic copy is used
++ Nvidia Owners. Make sure to edit your `~/.config/niri/UserConfigs/ENVariables.conf` (recommended). Below env's will be activated if automatic copy is used
 > WLR_NO_CURSORS,1 , LIBVA_DRIVER_NAME,nvidia ,  __GLX_VENDOR_LIBRARY_NAME,nvidia 
 
 + If you have already set your own keybinds, monitors, etc.... Just copy over from backup created before log-out or reboot. (recommended)

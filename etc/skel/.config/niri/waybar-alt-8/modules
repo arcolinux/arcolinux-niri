@@ -173,8 +173,8 @@
     "on-click-middle": "",
     "on-click-right": "",
     "on-update": "",
-    "on-scroll-up": "~/.config/hypr/scripts/Brightness.sh --inc",
-    "on-scroll-down": "~/.config/hypr/scripts/Brightness.sh --dec",
+    "on-scroll-up": "~/.config/niri/scripts/Brightness.sh --inc",
+    "on-scroll-down": "~/.config/niri/scripts/Brightness.sh --dec",
     "smooth-scrolling-threshold": 1,
 },
       
@@ -201,8 +201,8 @@
     "format-time": "{H}h {M}min",
     "tooltip": true,
     "tooltip-format": "{timeTo} {power}w",
-    "on-click-middle": "~/.config/hypr/scripts/ChangeBlur.sh",
-    "on-click-right": "~/.config/hypr/scripts/Wlogout.sh",
+    "on-click-middle": "~/.config/niri/scripts/ChangeBlur.sh",
+    "on-click-right": "~/.config/niri/scripts/Wlogout.sh",
 },
       
 "bluetooth": {
@@ -328,8 +328,8 @@
     "on-click": "playerctl previous",
     "on-click-right": "playerctl next",
     "scroll-step": 5.0,
-    "on-scroll-up": "~/.config/hypr/scripts/volume --inc",
-    "on-scroll-down": "~/.config/hypr/scripts/volume --dec",
+    "on-scroll-up": "~/.config/niri/scripts/volume --inc",
+    "on-scroll-down": "~/.config/niri/scripts/volume --dec",
     "smooth-scrolling-threshold": 1,
 	"player-icons": {
         "chromium": "",
@@ -394,10 +394,10 @@
     "ignored-sinks": ["Easy Effects Sink"],
     },
     "scroll-step": 5.0,
-    "on-click": "~/.config/hypr/scripts/volume --toggle",
+    "on-click": "~/.config/niri/scripts/volume --toggle",
     "on-click-right": "pavucontrol -t 3",
-    "on-scroll-up": "~/.config/hypr/scripts/volume --inc",
-    "on-scroll-down": "~/.config/hypr/scripts/volume --dec",
+    "on-scroll-up": "~/.config/niri/scripts/volume --inc",
+    "on-scroll-down": "~/.config/niri/scripts/volume --dec",
 	"tooltip-format": "{icon} {desc} | {volume}%",
     "smooth-scrolling-threshold": 1,
 },
@@ -406,10 +406,10 @@
     "format": "{format_source}",
     "format-source": " {volume}%",
     "format-source-muted": "",
-    "on-click": "~/.config/hypr/scripts/volume --toggle-mic",
+    "on-click": "~/.config/niri/scripts/volume --toggle-mic",
     "on-click-right": "pavucontrol -t 4",
-    "on-scroll-up": "~/.config/hypr/scripts/volume --mic-inc",
-    "on-scroll-down": "~/.config/hypr/scripts/volume --mic-dec",
+    "on-scroll-up": "~/.config/niri/scripts/volume --mic-inc",
+    "on-scroll-down": "~/.config/niri/scripts/volume --mic-dec",
 	"tooltip-format": "{source_desc} | {source_volume}%",
     "scroll-step": 5,
 },
@@ -433,10 +433,10 @@
 "wireplumber": {
     "format": "{icon} {volume} %",
     "format-muted": " Mute",
-    "on-click": "~/.config/hypr/scripts/volume --toggle",
+    "on-click": "~/.config/niri/scripts/volume --toggle",
     "on-click-right": "pavucontrol -t 3",
-    "on-scroll-up": "~/.config/hypr/scripts/volume --inc",
-    "on-scroll-down": "~/.config/hypr/scripts/volume --dec",
+    "on-scroll-up": "~/.config/niri/scripts/volume --inc",
+    "on-scroll-down": "~/.config/niri/scripts/volume --dec",
     "format-icons": ["", "", "󰕾", ""], 
 },
       
@@ -456,9 +456,9 @@
 "custom/cycle_wall":{
     "format":" ",
     "exec": "echo ; echo 󰸉 wallpaper select",
-    "on-click": "~/.config/hypr/scripts/WallpaperSelect.sh",
-    "on-click-right": "~/.config/hypr/scripts/Wallpaper.sh",
-    "on-click-middle": "~/.config/hypr/scripts/WaybarStyles.sh",
+    "on-click": "~/.config/niri/scripts/WallpaperSelect.sh",
+    "on-click-right": "~/.config/niri/scripts/Wallpaper.sh",
+    "on-click-middle": "~/.config/niri/scripts/WaybarStyles.sh",
     "interval" : 86400, // once every day
     "tooltip": true,
 },
@@ -466,7 +466,7 @@
 "custom/keybinds": {
     "format":"󰺁 HINT!",
     "exec": "echo ; echo  Key Hints SUPER H",
-    "on-click": "~/.config/hypr/scripts/KeyHints.sh",
+    "on-click": "~/.config/niri/scripts/KeyHints.sh",
     "interval" : 86400, // once every day
     "tooltip": true,
 },
@@ -475,15 +475,15 @@
     "exec": "cat ~/.cache/kb_layout",
     "interval": 1,
     "format": " {}",
-    "on-click": "~/.config/hypr/scripts/SwitchKeyboardLayout.sh",
+    "on-click": "~/.config/niri/scripts/SwitchKeyboardLayout.sh",
     },
     
 "custom/light_dark": {
     "format": "{}",
     "exec": "echo ; echo 󰔎 Dark-Light switcher",
-    "on-click": "~/.config/hypr/scripts/DarkLight.sh",
-    "on-click-right": "~/.config/hypr/scripts/WaybarStyles.sh",
-    "on-click-middle": "~/.config/hypr/scripts/Wallpaper.sh",
+    "on-click": "~/.config/niri/scripts/DarkLight.sh",
+    "on-click-right": "~/.config/niri/scripts/WaybarStyles.sh",
+    "on-click-middle": "~/.config/niri/scripts/Wallpaper.sh",
     "interval" : 86400, // once every day
     "tooltip": true
 },
@@ -493,7 +493,7 @@
     "exec": "echo ; echo 󰷛  screen lock",
     "interval" : 86400, // once every day
     "tooltip": true,
-    "on-click": "~/.config/hypr/scripts/LockScreen.sh",
+    "on-click": "~/.config/niri/scripts/LockScreen.sh",
 },
     
 "custom/menu": {
@@ -502,12 +502,12 @@
     "interval" : 86400, // once every day
     "tooltip": true,
     "on-click": "pkill rofi || rofi -show drun -modi run,drun,filebrowser,window",
-    "on-click-right": "~/.config/hypr/scripts/wallpaper",
+    "on-click-right": "~/.config/niri/scripts/wallpaper",
 },
 
 // This is a custom cava visualizer
 "custom/cava_mviz": {
-    "exec": "~/.config/hypr/scripts/WaybarCava.sh",
+    "exec": "~/.config/niri/scripts/WaybarCava.sh",
     "format": "{}"
 },
   
@@ -520,8 +520,8 @@
     "on-click": "playerctl previous",
     "on-click-right": "playerctl next",
     "scroll-step": 5.0,
-    "on-scroll-up": "~/.config/hypr/scripts/volume --inc",
-    "on-scroll-down": "~/.config/hypr/scripts/volume --dec",
+    "on-scroll-up": "~/.config/niri/scripts/volume --inc",
+    "on-scroll-down": "~/.config/niri/scripts/volume --dec",
     "smooth-scrolling-threshold": 1,
 },
 
@@ -612,8 +612,8 @@
     "on-click-middle": "",
     "on-click-right": "",
     "on-update": "",
-    "on-scroll-up": "~/.config/hypr/scripts/Brightness.sh --inc",
-    "on-scroll-down": "~/.config/hypr/scripts/Brightness.sh --dec",
+    "on-scroll-up": "~/.config/niri/scripts/Brightness.sh --inc",
+    "on-scroll-down": "~/.config/niri/scripts/Brightness.sh --dec",
     "smooth-scrolling-threshold": 1,
 	"tooltip-format": "{percent}%",
 },
@@ -664,10 +664,10 @@
     "ignored-sinks": ["Easy Effects Sink"],
 	},
     "scroll-step": 5.0,
-    "on-click": "~/.config/hypr/scripts/volume --toggle",
+    "on-click": "~/.config/niri/scripts/volume --toggle",
     "on-click-right": "pavucontrol -t 3",
-    "on-scroll-up": "~/.config/hypr/scripts/volume --inc",
-    "on-scroll-down": "~/.config/hypr/scripts/volume --dec",
+    "on-scroll-up": "~/.config/niri/scripts/volume --inc",
+    "on-scroll-down": "~/.config/niri/scripts/volume --dec",
 	"tooltip-format": "{icon} {desc} | {volume}%",
     "smooth-scrolling-threshold": 1,
 },
@@ -677,9 +677,9 @@
     "format-source": "󰍬",
     "format-source-muted": "󰍭",
     "on-click-right": "pavucontrol",
-    "on-click": "~/.config/hypr/scripts/volume --toggle-mic",
-    "on-scroll-up": "~/.config/hypr/scripts/volume --mic-inc",
-    "on-scroll-down": "~/.config/hypr/scripts/volume --mic-dec",
+    "on-click": "~/.config/niri/scripts/volume --toggle-mic",
+    "on-scroll-up": "~/.config/niri/scripts/volume --mic-inc",
+    "on-scroll-down": "~/.config/niri/scripts/volume --mic-dec",
     "max-volume": 100,
     "tooltip": true,
 	"tooltip-format": "{source_desc} | {source_volume}%",
@@ -700,19 +700,19 @@
 "custom/power_vertical": {
     "format": "⏻",
     "exec": "echo ; echo 󰟡 power // blur",
-	"on-click": "~/.config/hypr/scripts/Wlogout.sh",
-    "on-click-right": "~/.config/hypr/scripts/ChangeBlur.sh",
+	"on-click": "~/.config/niri/scripts/Wlogout.sh",
+    "on-click-right": "~/.config/niri/scripts/ChangeBlur.sh",
     "interval" : 86400, // once every day
     "tooltip": true,
 },
 "custom/changewaybar": {
-    "on-click": "~/.bin/change-waybar-hyprland",
+    "on-click": "~/.bin/change-waybar-niri",
     "tooltip": true,
     "tooltip-format": "Swap between waybar configs",
     "format": "CW "
 },
 "custom/changewaybarcss": {
-    "on-click": "~/.bin/change-waybar-hyprland-css",
+    "on-click": "~/.bin/change-waybar-niri-css",
     "tooltip": true,
     "tooltip-format": "Swap between waybar css",
     "format": "CSS "

@@ -64,7 +64,7 @@
     "custom/menu": {
          "format": "  ",
          "tooltip": false,
-         "on-click": "bash $HOME/.config/hypr/scripts/menu",
+         "on-click": "bash $HOME/.config/niri/scripts/menu",
     },
 
     "custom/power": {
@@ -154,7 +154,7 @@
         "spacing": 10
     },
     "custom/changewaybar": {
-        "on-click": "~/.bin/change-waybar-hyprland",
+        "on-click": "~/.bin/change-waybar-niri",
         "tooltip": true,
         "tooltip-format": "Swap between waybar configs",
         "format": "CW "

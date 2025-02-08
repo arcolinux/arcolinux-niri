@@ -89,18 +89,18 @@
     "custom/menu": {
          "format": "Arco",
          "tooltip": false,
-         "on-click": "$HOME/.config/hypr/scripts/menu",
-        //  "on-click": "sleep 0.1; $HOME/.config/hypr/scripts/rofi_launcher",
-        //  "on-click-right": "sleep 0.1; $HOME/.config/hypr/scripts/rofi_runner",
+         "on-click": "$HOME/.config/niri/scripts/menu",
+        //  "on-click": "sleep 0.1; $HOME/.config/niri/scripts/rofi_launcher",
+        //  "on-click-right": "sleep 0.1; $HOME/.config/niri/scripts/rofi_runner",
     },
 
     "custom/power": {
          "format": "⏻",
          "tooltip": false,
          "on-click": "archlinux-logout",
-         //"on-click": "$HOME/.config/hypr/scripts/wlogout",
-         //"on-click": "$HOME/.config/hypr/scripts/wofi_powermenu",
-         //"on-click": "sleep 0.1; $HOME/.config/hypr/scripts/rofi_powermenu",
+         //"on-click": "$HOME/.config/niri/scripts/wlogout",
+         //"on-click": "$HOME/.config/niri/scripts/wofi_powermenu",
+         //"on-click": "sleep 0.1; $HOME/.config/niri/scripts/rofi_powermenu",
     },
 
 	// waybar-disk
@@ -125,7 +125,7 @@
            
 	// waybar-spotify
     "custom/spotify": {
-        "exec": "$HOME/.config/hypr/waybar/spotify",
+        "exec": "$HOME/.config/niri/waybar/spotify",
         "interval": 1,
         "format": "{}",
         "tooltip": true,
@@ -285,7 +285,7 @@
         "spacing": 10
     },
     "custom/changewaybar": {
-        "on-click": "~/.bin/change-waybar-hyprland",
+        "on-click": "~/.bin/change-waybar-niri",
         "tooltip": true,
         "tooltip-format": "Swap between waybar configs",
         "format": "CW "

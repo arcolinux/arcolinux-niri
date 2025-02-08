@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Set the path to the config and style files
-config_file="${HOME}/.config/hypr/waybar/config"
-config_background_file="${HOME}/.config/hypr/waybar/config-background"
-style_file="${HOME}/.config/hypr/waybar/style.css"
-style_background_file="${HOME}/.config/hypr/waybar/style-background.css"
+config_file="${HOME}/.config/niri/waybar/config"
+config_background_file="${HOME}/.config/niri/waybar/config-background"
+style_file="${HOME}/.config/niri/waybar/style.css"
+style_background_file="${HOME}/.config/niri/waybar/style-background.css"
 
 # Swap names of config files
 mv "${config_file}" "${config_file}.temp"
@@ -27,8 +27,8 @@ while pgrep -u $UID -x waybar > /dev/null;do sleep 1;done
  
 
 # start up again
-CONFIG="$HOME/.config/hypr/waybar/config.ini"
-STYLE="$HOME/.config/hypr/waybar/style.css"
+CONFIG="$HOME/.config/niri/waybar/config.ini"
+STYLE="$HOME/.config/niri/waybar/style.css"
 
 if [[ ! $(pidof waybar) ]]; then
 	waybar --bar main-bar --log-level error --config ${CONFIG} --style ${STYLE} &

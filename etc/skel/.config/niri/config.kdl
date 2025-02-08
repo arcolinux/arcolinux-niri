@@ -309,8 +309,8 @@ binds {
     Mod+T { spawn "alacritty"; }
     Ctrl+Alt+T { spawn "alacritty"; }
     Mod+Return { spawn "alacritty"; }
-    Mod+D { spawn "~/.config/wayfire/scripts/fullmenut"; }
-    Mod+Shift+D { spawn "~/.config/wayfire/scripts/menut"; }
+    Mod+D { spawn "~/.config/niri/scripts/fullmenut"; }
+    Mod+Shift+D { spawn "~/.config/niri/scripts/menut"; }
     Ctrl+Alt+L { spawn "archlinux-logout"; }
     Mod+Shift+Return { spawn "thunar"; }
     Mod+X { spawn "archlinux-logout";}
