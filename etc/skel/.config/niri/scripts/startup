@@ -24,11 +24,14 @@ ${SCRIPTSDIR}/setdefaultwallpaper &
 # ${SCRIPTSDIR}/gtkthemes &
 ${SCRIPTSDIR}/gtkthemes-manual &
 
-# Lauch notification daemon (mako)
+# Launch notification daemon (mako)
 ${SCRIPTSDIR}/notifications &
 
-# Lauch statusbar (waybar)
+# Launch statusbar (waybar)
 ${SCRIPTSDIR}/statusbar &
+
+# Launch swayidle
+#${SCRIPTSDIR}/niri-swayidle &
 
 #dex $HOME/.config/autostart/arcolinux-welcome-app.desktop &
 
