@@ -32,6 +32,7 @@ ${SCRIPTSDIR}/statusbar &
 
 # Launch swayidle
 #${SCRIPTSDIR}/niri-swayidle &
+#${SCRIPTSDIR}/niri-poweroff &
 
 #insync start &
 #dropbox &
