@@ -33,8 +33,6 @@ ${SCRIPTSDIR}/statusbar &
 # Launch swayidle
 #${SCRIPTSDIR}/niri-swayidle &
 
-#dex $HOME/.config/autostart/arcolinux-welcome-app.desktop &
-
 #insync start &
 #dropbox &
 #telegram-desktop &
