@@ -15,7 +15,7 @@ input {
             // For example:
             // layout "us,ru"
             // options "grp:win_space_toggle,compose:ralt,ctrl:nocaps"
-			layout "be"
+			layout "us"
         }
     }
 
@@ -515,24 +515,24 @@ binds {
     //
     // For example, with 2 workspaces + 1 empty, indices 3, 4, 5 and so on
     // will all refer to the 3rd workspace.
-    Mod+Ampersand { focus-workspace 1; }
-    Mod+Eacute { focus-workspace 2; }
-    Mod+Quotedbl { focus-workspace 3; }
-    Mod+Apostrophe { focus-workspace 4; }
-    Mod+Parenleft { focus-workspace 5; }
-    Mod+Section { focus-workspace 6; }
-    Mod+Egrave { focus-workspace 7; }
-    Mod+Exclam { focus-workspace 8; }
-    Mod+ccedilla { focus-workspace 9; }
-    Mod+Ctrl+Ampersand { move-column-to-workspace 1; }
-    Mod+Ctrl+Eacute { move-column-to-workspace 2; }
-    Mod+Ctrl+Quotedbl { move-column-to-workspace 3; }
-    Mod+Ctrl+Apostrophe { move-column-to-workspace 4; }
-    Mod+Ctrl+Parenleft { move-column-to-workspace 5; }
-    Mod+Ctrl+Section { move-column-to-workspace 6; }
-    Mod+Ctrl+Egrave { move-column-to-workspace 7; }
-    Mod+Ctrl+Exclam { move-column-to-workspace 8; }
-    Mod+Ctrl+ccedilla { move-column-to-workspace 9; }
+    Mod+1 { focus-workspace 1; }
+    Mod+2 { focus-workspace 2; }
+    Mod+3 { focus-workspace 3; }
+    Mod+4 { focus-workspace 4; }
+    Mod+5 { focus-workspace 5; }
+    Mod+6 { focus-workspace 6; }
+    Mod+7 { focus-workspace 7; }
+    Mod+8 { focus-workspace 8; }
+    Mod+9 { focus-workspace 9; }
+    Mod+Ctrl+1 { move-column-to-workspace 1; }
+    Mod+Ctrl+2 { move-column-to-workspace 2; }
+    Mod+Ctrl+3 { move-column-to-workspace 3; }
+    Mod+Ctrl+4 { move-column-to-workspace 4; }
+    Mod+Ctrl+5 { move-column-to-workspace 5; }
+    Mod+Ctrl+6 { move-column-to-workspace 6; }
+    Mod+Ctrl+7 { move-column-to-workspace 7; }
+    Mod+Ctrl+8 { move-column-to-workspace 8; }
+    Mod+Ctrl+9 { move-column-to-workspace 9; }
 
     // Alternatively, there are commands to move just a single window:
     // Mod+Ctrl+1 { move-window-to-workspace 1; }
